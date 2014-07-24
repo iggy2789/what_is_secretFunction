@@ -1,6 +1,7 @@
 
 import java.util.Scanner;
 
+//make sample secret() method
 class Secret {
 	
 	
@@ -14,6 +15,7 @@ class Secret {
 
 }
 
+//crate all the prime numbers that are less than the given number
 class Primes{
 	
 	public static int[] primes(int max){
@@ -42,7 +44,7 @@ class Primes{
 	
 }
 
-
+//go through all the prime numbers and test the secret function
 class Additive{
 	
 	public static String additive(int[] primes){
@@ -78,7 +80,7 @@ class Additive{
 	
 }
 
-
+//take in input, put it all together, and print output
 public class SecretTestMain {
 
 	public static void main(String[] args) {
