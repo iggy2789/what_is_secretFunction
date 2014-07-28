@@ -49,11 +49,13 @@ class Additive{
 	
 	public static String additive(int[] primes){
 		
-		String additive = "";
+		String additive = "True";
 		
 		
 		for(int i=0; i<primes.length;i++){
 			for(int j=i+1;j<primes.length;j++){
+				
+				if (additive == "True"){
 				System.out.println("This is the combnation: ["+primes[i]+","+primes[j]+"]");
 				int secOne = Secret.secret(primes[i]);
 				int secTwo = Secret.secret(primes[j]);
@@ -67,6 +69,7 @@ class Additive{
 					
 					additive = "False";
 					
+				}
 				}
 				
 		}
