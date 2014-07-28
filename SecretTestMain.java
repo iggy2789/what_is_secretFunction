@@ -54,6 +54,7 @@ class Additive{
 		
 		for(int i=0; i<primes.length;i++){
 			for(int j=i+1;j<primes.length;j++){
+				System.out.println("This is the combnation: ["+primes[i]+","+primes[j]+"]");
 				int secOne = Secret.secret(primes[i]);
 				int secTwo = Secret.secret(primes[j]);
 				int secThree = Secret.secret(primes[i]+primes[j]);
