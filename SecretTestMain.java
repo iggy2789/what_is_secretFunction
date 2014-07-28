@@ -69,6 +69,25 @@ class Additive{
 				}
 				
 		}
+		
+			if (additive == "True"){
+				System.out.println("This is the combnation: ["+primes[i]+","+primes[i]+"]");
+				int secOne = Secret.secret(primes[i]);
+				int secTwo = Secret.secret(primes[i]);
+				int secThree = Secret.secret(primes[i]+primes[i]);
+				int secAdd = secTwo+secOne;
+				if (secAdd == secThree){
+					
+					additive = "True";
+					
+				}else{
+					
+					additive = "False";
+					
+				}
+				
+			}
+		
 		}
 		
 		
